@@ -10,12 +10,12 @@ public class Main {
     }
 
     private static void drive() {
-        System.out.println("Машина поехала.");
+        System.out.println("the car is went");
     }
 
     public static class Car implements AutoCloseable {
         public void close() {
-            System.out.println("Машина закрывается...");
+            System.out.println("car closes");
         }
     }
     }
